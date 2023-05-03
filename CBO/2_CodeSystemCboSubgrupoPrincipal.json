@@ -1,0 +1,240 @@
+{
+	"resourceType": "CodeSystem",
+	"url": "https://alexandresavaris.org/fhir/r4/StructureDefinition/CodeSystemCboSubgrupoPrincipal",
+	"version": "CBO2002",
+	"name": "CodeSystemCboSubgrupoPrincipal",
+	"title": "Subgrupos principais de acordo com a CBO (Classificação Brasileira de Ocupações)",
+	"status": "active",
+	"experimental": false,
+	"date": "2023-05-03",
+	"publisher": "Alexandre Savaris",
+	"contact": [
+		{
+			"name": "Alexandre Savaris",
+			"telecom": [
+				{
+					"system": "email",
+					"value": "alexandre.savaris@gmail.com",
+					"use": "work",
+					"rank": 1
+				}
+			]
+		}
+	],
+	"description": "CodeSystem para a Classificação Brasileira de Ocupações (CBO) em nível de subgrupo principal.",
+	"jurisdiction": [
+		{
+			"coding": [
+				{
+					"system": "urn:iso:std:iso:3166",
+					"code": "BRA",
+					"display": "Brazil",
+					"userSelected": true
+				}
+			]
+		}
+	],
+	"purpose": "Relacionar códigos e descrições para a Classificação Brasileira de Ocupações (CBO) em nível de subgrupo principal.",
+	"caseSensitive": true,
+	"versionNeeded": true,
+	"content": "complete",
+	"count": 49,
+	"concept": [
+		{
+		  "code": "01",
+		  "display": "MEMBROS DAS FORÇAS ARMADAS"
+		},
+		{
+		  "code": "02",
+		  "display": "POLICIAIS MILITARES"
+		},
+		{
+		  "code": "03",
+		  "display": "BOMBEIROS MILITARES"
+		},
+		{
+		  "code": "11",
+		  "display": "MEMBROS SUPERIORES E DIRIGENTES DO PODER PÚBLICO"
+		},
+		{
+		  "code": "12",
+		  "display": "DIRIGENTES DE EMPRESAS E ORGANIZAÇÕES (EXCETO DE INTERESSE PÚBLICO)"
+		},
+		{
+		  "code": "13",
+		  "display": "DIRETORES E GERENTES EM EMPRESA DE SERVIÇOS DE SAÚDE, DA EDUCAÇÃO, OU DE SERVIÇOS CULTURAIS, SOCIAIS OU PESSOAIS"
+		},
+		{
+		  "code": "14",
+		  "display": "GERENTES"
+		},
+		{
+		  "code": "20",
+		  "display": "PESQUISADORES E PROFISSIONAIS POLICIENTÍFICOS"
+		},
+		{
+		  "code": "21",
+		  "display": "PROFISSIONAIS DAS CIÊNCIAS EXATAS, FÍSICAS E DA ENGENHARIA"
+		},
+		{
+		  "code": "22",
+		  "display": "PROFISSIONAIS DAS CIÊNCIAS BIOLÓGICAS, DA SAÚDE E AFINS"
+		},
+		{
+		  "code": "23",
+		  "display": "PROFISSIONAIS DO ENSINO"
+		},
+		{
+		  "code": "24",
+		  "display": "PROFISSIONAIS DAS CIÊNCIAS JURÍDICAS"
+		},
+		{
+		  "code": "25",
+		  "display": "PROFISSIONAIS DAS CIÊNCIAS SOCIAIS E HUMANAS"
+		},
+		{
+		  "code": "26",
+		  "display": "COMUNICADORES, ARTISTAS E RELIGIOSOS"
+		},
+		{
+		  "code": "27",
+		  "display": "PROFISSIONAIS EM GASTRONOMIA"
+		},
+		{
+		  "code": "30",
+		  "display": "TÉCNICOS POLIVALENTES"
+		},
+		{
+		  "code": "31",
+		  "display": "TÉCNICOS DE NÍVEL MÉDIO DAS CIÊNCIAS FÍSICAS, QUÍMICAS, ENGENHARIA E AFINS"
+		},
+		{
+		  "code": "32",
+		  "display": "TÉCNICOS DE NÍVEL MÉDIO DAS CIÊNCIAS BIOLÓGICAS, BIOQUÍMICAS, DA SAÚDE E AFINS"
+		},
+		{
+		  "code": "33",
+		  "display": "PROFESSORES LEIGOS E DE NÍVEL MÉDIO"
+		},
+		{
+		  "code": "34",
+		  "display": "TÉCNICOS DE NÍVEL MÉDIO EM SERVIÇOS DE TRANSPORTES"
+		},
+		{
+		  "code": "35",
+		  "display": "TÉCNICOS DE NIVEL MÉDIO NAS CIÊNCIAS ADMINISTRATIVAS"
+		},
+		{
+		  "code": "37",
+		  "display": "TÉCNICOS EM NIVEL MÉDIO DOS SERVIÇOS CULTURAIS, DAS COMUNICAÇÕES E DOS DESPORTOS"
+		},
+		{
+		  "code": "39",
+		  "display": "OUTROS TÉCNICOS DE NÍVEL MÉDIO"
+		},
+		{
+		  "code": "41",
+		  "display": "ESCRITURÁRIOS"
+		},
+		{
+		  "code": "42",
+		  "display": "TRABALHADORES DE ATENDIMENTO AO PÚBLICO"
+		},
+		{
+		  "code": "51",
+		  "display": "TRABALHADORES DOS SERVIÇOS"
+		},
+		{
+		  "code": "52",
+		  "display": "VENDEDORES E PRESTADORES DE SERVIÇOS DO COMÉRCIO"
+		},
+		{
+		  "code": "61",
+		  "display": "PRODUTORES NA EXPLORAÇÃO AGROPECUÁRIA"
+		},
+		{
+		  "code": "62",
+		  "display": "TRABALHADORES NA EXPLORAÇÃO AGROPECUÁRIA"
+		},
+		{
+		  "code": "63",
+		  "display": "PESCADORES E EXTRATIVISTAS FLORESTAIS"
+		},
+		{
+		  "code": "64",
+		  "display": "TRABALHADORES DA MECANIZAÇÃO AGROPECUÁRIA E FLORESTAL"
+		},
+		{
+		  "code": "71",
+		  "display": "TRABALHADORES DA INDÚSTRIA EXTRATIVA E DA CONSTRUÇÃO CIVIL"
+		},
+		{
+		  "code": "72",
+		  "display": "TRABALHADORES DA TRANSFORMAÇÃO DE METAIS E DE COMPÓSITOS"
+		},
+		{
+		  "code": "73",
+		  "display": "TRABALHADORES DA FABRICAÇÃO E INSTALAÇÃO ELETROELETRÔNICA"
+		},
+		{
+		  "code": "74",
+		  "display": "MONTADORES DE APARELHOS E INSTRUMENTOS DE PRECISÃO E MUSICAIS"
+		},
+		{
+		  "code": "75",
+		  "display": "JOALHEIROS, VIDREIROS, CERAMISTAS E AFINS"
+		},
+		{
+		  "code": "76",
+		  "display": "TRABALHADORES NAS INDÚSTRIAS TÊXTIL, DO CURTIMENTO, DO VESTÚARIO E DAS ARTES GRÁFICAS"
+		},
+		{
+		  "code": "77",
+		  "display": "TRABALHADORES DAS INDÚSTRIAS DE MADEIRA E DO MOBILIÁRIO"
+		},
+		{
+		  "code": "78",
+		  "display": "TRABALHADORES DE FUNÇÕES TRANSVERSAIS"
+		},
+		{
+		  "code": "79",
+		  "display": "TRABALHADORES DO ARTESANATO"
+		},
+		{
+		  "code": "81",
+		  "display": "TRABALHADORES EM INDÚSTRIAS DE PROCESSOS CONTÍNUOS E OUTRAS INDÚSTRIAS"
+		},
+		{
+		  "code": "82",
+		  "display": "TRABALHADORES DE INSTALAÇÕES SIDERÚRGICAS E DE MATERIAIS DE CONSTRUÇÃO"
+		},
+		{
+		  "code": "83",
+		  "display": "TRABALHADORES DE INSTALAÇÕES E MÁQUINAS DE FABRICAÇÃO DE CELULOSE E PAPEL"
+		},
+		{
+		  "code": "84",
+		  "display": "TRABALHADORES DA FABRICAÇÃO DE ALIMENTOS, BEBIDAS E FUMO"
+		},
+		{
+		  "code": "86",
+		  "display": "OPERADORES DE PRODUÇÃO, CAPTAÇÃO, TRATAMENTO E DISTRIBUIÇÃO (ENERGIA, ÁGUA E UTILIDADES)"
+		},
+		{
+		  "code": "87",
+		  "display": "OPERADORES DE OUTRAS INSTALAÇÕES INDUSTRIAIS"
+		},
+		{
+		  "code": "91",
+		  "display": "TRABALHADORES EM SERVIÇOS DE REPARAÇÃO E MANUTENÇÃO MECÂNICA"
+		},
+		{
+		  "code": "95",
+		  "display": "POLIMANTENEDORES"
+		},
+		{
+		  "code": "99",
+		  "display": "OUTROS TRABALHADORES DA CONSERVAÇÃO, MANUTENÇÃO E REPARAÇÃO"
+		}
+	]
+}

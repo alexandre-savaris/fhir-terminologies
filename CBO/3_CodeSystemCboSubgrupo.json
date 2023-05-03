@@ -1,0 +1,824 @@
+{
+	"resourceType": "CodeSystem",
+	"url": "https://alexandresavaris.org/fhir/r4/StructureDefinition/CodeSystemCboSubgrupo",
+	"version": "CBO2002",
+	"name": "CodeSystemCboSubgrupo",
+	"title": "Subgrupos de acordo com a CBO (Classificação Brasileira de Ocupações)",
+	"status": "active",
+	"experimental": false,
+	"date": "2023-05-03",
+	"publisher": "Alexandre Savaris",
+	"contact": [
+		{
+			"name": "Alexandre Savaris",
+			"telecom": [
+				{
+					"system": "email",
+					"value": "alexandre.savaris@gmail.com",
+					"use": "work",
+					"rank": 1
+				}
+			]
+		}
+	],
+	"description": "CodeSystem para a Classificação Brasileira de Ocupações (CBO) em nível de subgrupo.",
+	"jurisdiction": [
+		{
+			"coding": [
+				{
+					"system": "urn:iso:std:iso:3166",
+					"code": "BRA",
+					"display": "Brazil",
+					"userSelected": true
+				}
+			]
+		}
+	],
+	"purpose": "Relacionar códigos e descrições para a Classificação Brasileira de Ocupações (CBO) em nível de subgrupo.",
+	"caseSensitive": true,
+	"versionNeeded": true,
+	"content": "complete",
+	"count": 195,
+	"concept": [
+		{
+		  "code": "010",
+		  "display": "MEMBROS DAS FORÇAS ARMADAS"
+		},
+		{
+		  "code": "020",
+		  "display": "OFICIAIS DE POLÍCIA MILITAR"
+		},
+		{
+		  "code": "021",
+		  "display": "PRAÇAS DE POLÍCIA MILITAR"
+		},
+		{
+		  "code": "030",
+		  "display": "OFICIAIS DE BOMBEIRO MILITAR"
+		},
+		{
+		  "code": "031",
+		  "display": "PRAÇAS DE BOMBEIRO MILITAR"
+		},
+		{
+		  "code": "111",
+		  "display": "MEMBROS SUPERIORES DO PODER LEGISLATIVO, EXECUTIVO E JUDICIÁRIO"
+		},
+		{
+		  "code": "113",
+		  "display": "CHEFES DE PEQUENAS POPULAÇÕES"
+		},
+		{
+		  "code": "114",
+		  "display": "DIRIGENTES E ADMINISTRADORES DE ORGANIZAÇÃO DE INTERESSE PÚBLICO"
+		},
+		{
+		  "code": "121",
+		  "display": "DIRETORES GERAIS"
+		},
+		{
+		  "code": "122",
+		  "display": "DIRETORES DE PRODUÇÃO E OPERAÇÕES"
+		},
+		{
+		  "code": "123",
+		  "display": "DIRETORES DE ÁREAS DE APOIO"
+		},
+		{
+		  "code": "131",
+		  "display": "DIRETORES E GERENTES EM EMPRESA DE SERVIÇOS DE SAÚDE, DE EDUCAÇÃO, OU DE SERVIÇOS CULTURAIS, SOCIAIS OU PESSOAIS"
+		},
+		{
+		  "code": "141",
+		  "display": "GERENTES DE PRODUÇÃO E OPERAÇÕES"
+		},
+		{
+		  "code": "142",
+		  "display": "GERENTES DE ÁREAS DE APOIO"
+		},
+		{
+		  "code": "201",
+		  "display": "PROFISSIONAIS DA BIOTECNOLOGIA E METROLOGIA"
+		},
+		{
+		  "code": "202",
+		  "display": "PROFISSIONAIS DA ELETROMECÂNICA"
+		},
+		{
+		  "code": "203",
+		  "display": "PESQUISADORES"
+		},
+		{
+		  "code": "204",
+		  "display": "PROFISSIONAIS DE INVESTIGAÇÃO CRIMINAL"
+		},
+		{
+		  "code": "211",
+		  "display": "MATEMÁTICOS, ESTATÍSTICOS E AFINS"
+		},
+		{
+		  "code": "212",
+		  "display": "PROFISSIONAIS DA INFORMÁTICA"
+		},
+		{
+		  "code": "213",
+		  "display": "FÍSICOS, QUÍMICOS E AFINS"
+		},
+		{
+		  "code": "214",
+		  "display": "ENGENHEIROS, ARQUITETOS E AFINS"
+		},
+		{
+		  "code": "215",
+		  "display": "PROFISSIONAIS EM NAVEGAÇÃO AÉREA, MARÍTIMA E FLUVIAL"
+		},
+		{
+		  "code": "221",
+		  "display": "BIÓLOGOS E AFINS"
+		},
+		{
+		  "code": "222",
+		  "display": "AGRÔNOMOS E AFINS"
+		},
+		{
+		  "code": "223",
+		  "display": "PROFISSIONAIS DA MEDICINA, SAÚDE E AFINS"
+		},
+		{
+		  "code": "224",
+		  "display": "PROFISSIONAIS DA EDUCAÇÃO FÍSICA"
+		},
+		{
+		  "code": "225",
+		  "display": "PROFISSIONAIS DA MEDICINA"
+		},
+		{
+		  "code": "226",
+		  "display": "PROFISSIONAIS DE SAÚDE EM PRATICAS INTEGRATIVAS E COMPLEMENTARES"
+		},
+		{
+		  "code": "231",
+		  "display": "PROFESSORES DE NÍVEL SUPERIOR NA EDUCAÇÃO INFANTIL E NO ENSINO FUNDAMENTAL"
+		},
+		{
+		  "code": "232",
+		  "display": "PROFESSORES DO ENSINO MÉDIO"
+		},
+		{
+		  "code": "233",
+		  "display": "PROFESSORES E INSTRUTORES DO ENSINO PROFISSIONAL"
+		},
+		{
+		  "code": "234",
+		  "display": "PROFESSORES DO ENSINO SUPERIOR"
+		},
+		{
+		  "code": "239",
+		  "display": "OUTROS PROFISSIONAIS DO ENSINO NÃO CLASSIFICADOS ANTERIORMENTE"
+		},
+		{
+		  "code": "241",
+		  "display": "ADVOGADOS, PROCURADORES, TABELIÃES E AFINS"
+		},
+		{
+		  "code": "242",
+		  "display": "ADVOGADOS DO PODER JUDICIÁRIO E DA SEGURANÇA PÚBLICA"
+		},
+		{
+		  "code": "251",
+		  "display": "CIENTISTAS SOCIAIS, PSICÓLOGOS E AFINS"
+		},
+		{
+		  "code": "252",
+		  "display": "PROFISSIONAIS DE ORGANIZAÇÃO E ADMINISTRAÇÃO DE EMPRESAS E AFINS"
+		},
+		{
+		  "code": "253",
+		  "display": "PROFISSIONAIS DE RELAÇÕES PÚBLICAS, PUBLICIDADE, MARKETING E COMERCIALIZAÇÃO"
+		},
+		{
+		  "code": "254",
+		  "display": "AUDITORES FISCAIS PÚBLICOS"
+		},
+		{
+		  "code": "261",
+		  "display": "PROFISSIONAIS DA COMUNICAÇÃO E DA INFORMAÇÃO"
+		},
+		{
+		  "code": "262",
+		  "display": "PROFISSIONAIS DE ESPETÁCULOS E DAS ARTES"
+		},
+		{
+		  "code": "263",
+		  "display": "MEMBROS DE CULTOS RELIGIOSOS E AFINS"
+		},
+		{
+		  "code": "271",
+		  "display": "PROFISSIONAIS EM GASTRONOMIA E SERVIÇOS DE ALIMENTAÇÃO"
+		},
+		{
+		  "code": "300",
+		  "display": "TÉCNICOS MECATRÔNICOS E ELETROMECÂNICOS"
+		},
+		{
+		  "code": "301",
+		  "display": "TÉCNICOS EM LABORATÓRIO"
+		},
+		{
+		  "code": "311",
+		  "display": "TÉCNICO EM CIÊNCIAS FÍSICAS E QUÍMICAS"
+		},
+		{
+		  "code": "312",
+		  "display": "TÉCNICOS EM CONSTRUÇÃO CIVIL, DE EDIFICAÇÕES E OBRAS DE INFRAESTRUTURA"
+		},
+		{
+		  "code": "313",
+		  "display": "TÉCNICOS EM ELETROELETRÔNICA E FOTÔNICA"
+		},
+		{
+		  "code": "314",
+		  "display": "TÉCNICOS EM METALMECÂNICA"
+		},
+		{
+		  "code": "316",
+		  "display": "TÉCNICOS EM MINERALOGIA E GEOLOGIA"
+		},
+		{
+		  "code": "317",
+		  "display": "TÉCNICOS EM INFORMÁTICA"
+		},
+		{
+		  "code": "318",
+		  "display": "DESENHISTAS TÉCNICOS E MODELISTAS"
+		},
+		{
+		  "code": "319",
+		  "display": "OUTROS TÉCNICOS DE NÍVEL MÉDIO DAS CIÊNCIAS FÍSICAS, QUÍMICAS, ENGENHARIA E AFINS"
+		},
+		{
+		  "code": "320",
+		  "display": "TÉCNICOS EM BIOLOGIA"
+		},
+		{
+		  "code": "321",
+		  "display": "TÉCNICOS DA PRODUÇÃO AGROPECUÁRIA"
+		},
+		{
+		  "code": "322",
+		  "display": "TÉCNICOS DA CIÊNCIA DA SAÚDE HUMANA"
+		},
+		{
+		  "code": "323",
+		  "display": "TÉCNICOS DA CIÊNCIA DA SAÚDE ANIMAL"
+		},
+		{
+		  "code": "324",
+		  "display": "TÉCNICOS EM OPERAÇÃO DE EQUIPAMENTOS E INSTRUMENTOS DE DIAGNÓSTICO"
+		},
+		{
+		  "code": "325",
+		  "display": "TÉCNICOS DE BIOQUÍMICA E DA BIOTECNOLOGIA"
+		},
+		{
+		  "code": "328",
+		  "display": "TÉCNICOS EM NECRÓPSIA E TAXIDERMISTAS"
+		},
+		{
+		  "code": "331",
+		  "display": "PROFESSORES DE NÍVEL MÉDIO NA EDUCAÇÃO INFANTIL, NO ENSINO FUNDAMENTAL E NO PROFISSIONALIZANTE"
+		},
+		{
+		  "code": "332",
+		  "display": "PROFESSORES LEIGOS NO ENSINO FUNDAMENTAL E NO  PROFISSIONALIZANTE"
+		},
+		{
+		  "code": "333",
+		  "display": "INSTRUTORES E PROFESSORES DE ESCOLAS LIVRES"
+		},
+		{
+		  "code": "334",
+		  "display": "INSPETORES DE ALUNOS E AFINS"
+		},
+		{
+		  "code": "341",
+		  "display": "TÉCNICOS EM NAVEGAÇÃO AÉREA, MARÍTIMA E FLUVIAL"
+		},
+		{
+		  "code": "342",
+		  "display": "TÉCNICOS EM TRANSPORTES (LOGÍSTICA)"
+		},
+		{
+		  "code": "351",
+		  "display": "TÉCNICOS DAS CIÊNCIAS ADMINISTRATIVAS"
+		},
+		{
+		  "code": "352",
+		  "display": "TÉCNICOS DE INSPEÇÃO, FISCALIZAÇÃO E COORDENAÇÃO ADMINISTRATIVA"
+		},
+		{
+		  "code": "353",
+		  "display": "TÉCNICOS DE NÍVEL MÉDIO EM OPERAÇÕES FINANCEIRAS"
+		},
+		{
+		  "code": "354",
+		  "display": "TÉCNICOS DE NIVEL MÉDIO EM OPERAÇÕES COMERCIAIS"
+		},
+		{
+		  "code": "371",
+		  "display": "TÉCNICOS DE SERVIÇOS CULTURAIS"
+		},
+		{
+		  "code": "372",
+		  "display": "TÉCNICOS EM OPERAÇÃO DE CÂMARA FOTOGRÁFICA , CINEMA E DE TELEVISÃO"
+		},
+		{
+		  "code": "373",
+		  "display": "TÉCNICOS EM OPERAÇÃO DE EMISSORAS DE RÁDIO, SISTEMAS DE TELEVISÃO E DE PRODUTORAS DE VÍDEO"
+		},
+		{
+		  "code": "374",
+		  "display": "TÉCNICOS EM OPERAÇÃO DE APARELHOS DE SONORIZAÇÃO, CENOGRAFIA E PROJEÇÃO"
+		},
+		{
+		  "code": "375",
+		  "display": "DECORADORES E VITRINISTAS"
+		},
+		{
+		  "code": "376",
+		  "display": "ARTISTAS DE ARTES POPULARES E MODELOS"
+		},
+		{
+		  "code": "377",
+		  "display": "ATLETAS, DESPORTISTAS E AFINS"
+		},
+		{
+		  "code": "391",
+		  "display": "TÉCNICOS DE NIVEL MÉDIO EM OPERAÇÕES INDUSTRIAIS"
+		},
+		{
+		  "code": "395",
+		  "display": "TÉCNICOS DE APOIO EM PESQUISA E DESENVOLVIMENTO"
+		},
+		{
+		  "code": "410",
+		  "display": "SUPERVISORES DE SERVIÇOS ADMINISTRATIVOS (Exceto de atendimento ao público)"
+		},
+		{
+		  "code": "411",
+		  "display": "ESCRITURÁRIOS EM GERAL, AGENTES, ASSISTENTES E AUXILIARES ADMINISTRATIVOS"
+		},
+		{
+		  "code": "412",
+		  "display": "SECRETÁRIOS DE EXPEDIENTE E OPERADORES DE MÁQUINAS DE ESCRITÓRIOS"
+		},
+		{
+		  "code": "413",
+		  "display": "ESCRITURÁRIOS CONTÁBEIS E DE FINANÇAS"
+		},
+		{
+		  "code": "414",
+		  "display": "ESCRITURÁRIOS DE CONTROLE DE MATERIAIS E DE APOIO À PRODUÇÃO"
+		},
+		{
+		  "code": "415",
+		  "display": "AUXILIARES DE SERVIÇOS DE BIBLIOTECA, DOCUMENTAÇÃO E CORREIOS"
+		},
+		{
+		  "code": "420",
+		  "display": "SUPERVISORES DE ATENDIMENTO AO PÚBLICO"
+		},
+		{
+		  "code": "421",
+		  "display": "CAIXAS, BILHETEIROS E AFINS"
+		},
+		{
+		  "code": "422",
+		  "display": "TRABALHADORES DE INFORMAÇÕES AO PÚBLICO"
+		},
+		{
+		  "code": "423",
+		  "display": "DESPACHANTES"
+		},
+		{
+		  "code": "424",
+		  "display": "ENTREVISTADORES, RECENSEADORES E AFINS"
+		},
+		{
+		  "code": "510",
+		  "display": "SUPERVISORES DOS SERVIÇOS"
+		},
+		{
+		  "code": "511",
+		  "display": "TRABALHADORES DOS SERVIÇOS DE TRANSPORTE E TURISMO"
+		},
+		{
+		  "code": "512",
+		  "display": "TRABALHADORES DOS SERVIÇOS DOMÉSTICOS EM GERAL"
+		},
+		{
+		  "code": "513",
+		  "display": "TRABALHADORES DOS SERVIÇOS DE HOTELARIA E ALIMENTAÇÃO"
+		},
+		{
+		  "code": "514",
+		  "display": "TRABALHADORES NOS SERVIÇOS DE ADMINISTRAÇÃO, CONSERVAÇÃO E MANUTENÇÃO DE EDIFÍCIOS E LOGRADOUROS"
+		},
+		{
+		  "code": "515",
+		  "display": "TRABALHADORES DOS SERVIÇOS DE SAÚDE"
+		},
+		{
+		  "code": "516",
+		  "display": "TRABALHADORES NOS SERVIÇOS DE EMBELEZAMENTO E CUIDADOS PESSOAIS"
+		},
+		{
+		  "code": "517",
+		  "display": "TRABALHADORES NOS SERVIÇOS DE PROTEÇÃO E SEGURANÇA"
+		},
+		{
+		  "code": "519",
+		  "display": "OUTROS TRABALHADORES DE SERVIÇOS DIVERSOS"
+		},
+		{
+		  "code": "520",
+		  "display": "SUPERVISORES DE VENDAS E DE PRESTAÇÃO DE SERVIÇOS"
+		},
+		{
+		  "code": "521",
+		  "display": "VENDEDORES E DEMONSTRADORES"
+		},
+		{
+		  "code": "522",
+		  "display": "REPOSITORES E REMARCADORES DO COMÉRCIO"
+		},
+		{
+		  "code": "523",
+		  "display": "INSTALADORES DE PRODUTOS E ACESSÓRIOS"
+		},
+		{
+		  "code": "524",
+		  "display": "VENDEDORES A DOMICÍLIO, AMBULANTES E EM BANCAS"
+		},
+		{
+		  "code": "611",
+		  "display": "PRODUTORES AGROPECUÁRIOS EM GERAL"
+		},
+		{
+		  "code": "612",
+		  "display": "PRODUTORES AGRÍCOLAS"
+		},
+		{
+		  "code": "613",
+		  "display": "PRODUTORES EM PECUÁRIA"
+		},
+		{
+		  "code": "620",
+		  "display": "SUPERVISORES NA EXPLORAÇÃO AGROPECUÁRIA"
+		},
+		{
+		  "code": "621",
+		  "display": "TRABALHADORES NA EXPLORAÇÃO AGROPECUÁRIA EM GERAL"
+		},
+		{
+		  "code": "622",
+		  "display": "TRABALHADORES AGRÍCOLAS"
+		},
+		{
+		  "code": "623",
+		  "display": "TRABALHADORES NA PECUÁRIA"
+		},
+		{
+		  "code": "630",
+		  "display": "SUPERVISORES NA EXPLORAÇÃO FLORESTAL E PESCA"
+		},
+		{
+		  "code": "631",
+		  "display": "PESCADORES E CAÇADORES"
+		},
+		{
+		  "code": "632",
+		  "display": "EXTRATIVISTAS FLORESTAIS"
+		},
+		{
+		  "code": "641",
+		  "display": "TRABALHADORES DA MECANIZAÇÃO AGROPECUÁRIA"
+		},
+		{
+		  "code": "642",
+		  "display": "TRABALHADORES DA MECANIZAÇÃO FLORESTAL"
+		},
+		{
+		  "code": "643",
+		  "display": "TRABALHADORES DA IRRIGAÇÃO E DRENAGEM"
+		},
+		{
+		  "code": "710",
+		  "display": "SUPERVISORES DA EXTRAÇÃO MINERAL E DA CONSTRUÇÃO CIVIL"
+		},
+		{
+		  "code": "711",
+		  "display": "TRABALHADORES DA EXTRAÇÃO MINERAL"
+		},
+		{
+		  "code": "712",
+		  "display": "TRABALHADORES DE BENEFICIAMENTO DE MINÉRIOS E PEDRAS ORNAMENTAIS"
+		},
+		{
+		  "code": "715",
+		  "display": "TRABALHADORES DA CONSTRUÇÃO CIVIL E OBRAS PÚBLICAS"
+		},
+		{
+		  "code": "716",
+		  "display": "TRABALHADORES DE ACABAMENTO DE OBRAS"
+		},
+		{
+		  "code": "717",
+		  "display": "AJUDANTES DE OBRAS"
+		},
+		{
+		  "code": "720",
+		  "display": "SUPERVISORES DA TRANSFORMAÇÃO DE METAIS E DE COMPÓSITOS"
+		},
+		{
+		  "code": "721",
+		  "display": "TRABALHADORES DE USINAGEM DE METAIS E DE COMPÓSITOS"
+		},
+		{
+		  "code": "722",
+		  "display": "TRABALHADORES DE CONFORMAÇÃO DE METAIS E DE COMPÓSITOS"
+		},
+		{
+		  "code": "723",
+		  "display": "TRABALHADORES DE TRATAMENTO TÉRMICO E DE SUPERFÍCIES DE METAIS E DE COMPÓSITOS"
+		},
+		{
+		  "code": "724",
+		  "display": "TRABALHADORES DE MONTAGEM DE TUBULAÇÕES, ESTRUTURAS METÁLICAS E DE COMPÓSITOS"
+		},
+		{
+		  "code": "725",
+		  "display": "MONTADORES DE MÁQUINAS E APARELHOS MECÂNICOS"
+		},
+		{
+		  "code": "730",
+		  "display": "SUPERVISORES DE MONTAGENS E INSTALAÇÕES ELETROELETRÔNICAS"
+		},
+		{
+		  "code": "731",
+		  "display": "MONTADORES E INSTALADORES DE EQUIPAMENTOS ELETROELETRÔNICOS EM GERAL"
+		},
+		{
+		  "code": "732",
+		  "display": "INSTALADORES E REPARADORES DE LINHAS E CABOS ELÉTRICOS E DE COMUNICAÇÕES"
+		},
+		{
+		  "code": "740",
+		  "display": "SUPERVISORES DA MECÂNICA DE PRECISÃO E INSTRUMENTOS MUSICAIS"
+		},
+		{
+		  "code": "741",
+		  "display": "MONTADORES E AJUSTADORES DE INSTRUMENTOS DE PRECISÃO"
+		},
+		{
+		  "code": "742",
+		  "display": "MONTADORES E AJUSTADORES DE INSTRUMENTOS MUSICAIS"
+		},
+		{
+		  "code": "750",
+		  "display": "SUPERVISORES DE JOALHERIA, VIDRARIA, CERÂMICA E AFINS"
+		},
+		{
+		  "code": "751",
+		  "display": "JOALHEIROS E OURIVES"
+		},
+		{
+		  "code": "752",
+		  "display": "VIDREIROS, CERAMISTAS E AFINS"
+		},
+		{
+		  "code": "760",
+		  "display": "SUPERVISORES NAS INDÚSTRIAS TÊXTIL, DO CURTIMENTO, DO VESTUÁRIO E DAS ARTES GRÁFICAS"
+		},
+		{
+		  "code": "761",
+		  "display": "TRABALHADORES DAS INDUSTRIAS TÊXTEIS"
+		},
+		{
+		  "code": "762",
+		  "display": "TRABALHADORES DO TRATAMENTO DE COUROS E PELES"
+		},
+		{
+		  "code": "763",
+		  "display": "TRABALHADORES DA CONFECÇÃO DE ROUPAS"
+		},
+		{
+		  "code": "764",
+		  "display": "TRABALHADORES DA CONFECÇÃO DE CALÇADOS"
+		},
+		{
+		  "code": "765",
+		  "display": "TRABALHADORES DA CONFECÇÃO DE ARTEFATOS DE TECIDOS E COUROS"
+		},
+		{
+		  "code": "766",
+		  "display": "TRABALHADORES DA PRODUÇÃO GRÁFICA"
+		},
+		{
+		  "code": "768",
+		  "display": "TRABALHADORES ARTESANAIS DAS ATIVIDADES TÊXTEIS, DO VESTUÁRIO E DAS ARTES GRÁFICAS"
+		},
+		{
+		  "code": "770",
+		  "display": "SUPERVISORES EM INDÚSTRIA DE MADEIRA, MOBILIÁRIO E DA CARPINTARIA VEICULAR"
+		},
+		{
+		  "code": "771",
+		  "display": "MARCENEIROS E AFINS"
+		},
+		{
+		  "code": "772",
+		  "display": "TRABALHADORES DA PREPARAÇÃO DA MADEIRA"
+		},
+		{
+		  "code": "773",
+		  "display": "TRABALHADORES DA TRANSFORMAÇÃO DA MADEIRA E DA FABRICAÇÃO DO MOBILIÁRIO"
+		},
+		{
+		  "code": "774",
+		  "display": "TRABALHADORES DE MONTAGEM DE MÓVEIS E ARTEFATOS DE MADEIRA"
+		},
+		{
+		  "code": "775",
+		  "display": "TRABALHADORES EM ACABAMENTO DE MADEIRA E DE MOBILIÁRIO"
+		},
+		{
+		  "code": "776",
+		  "display": "TRABALHADORES ARTESANAIS DA MADEIRA E DO MOBILIÁRIO"
+		},
+		{
+		  "code": "777",
+		  "display": "TRABALHADORES DA CARPINTARIA VEICULAR"
+		},
+		{
+		  "code": "780",
+		  "display": "SUPERVISORES DE TRABALHADORES DE EMBALAGEM E ETIQUETAGEM"
+		},
+		{
+		  "code": "781",
+		  "display": "OPERADORES DE ROBÔS E EQUIPAMENTOS ESPECIAIS"
+		},
+		{
+		  "code": "782",
+		  "display": "CONDUTORES DE VEÍCULOS E OPERADORES DE EQUIPAMENTOS DE ELEVAÇÃO E DE MOVIMENTAÇÃO DE CARGAS"
+		},
+		{
+		  "code": "783",
+		  "display": "TRABALHADORES DE MANOBRAS SOBRE TRILHOS E MOVIMENTAÇÃO E CARGAS"
+		},
+		{
+		  "code": "784",
+		  "display": "EMBALADORES E ALIMENTADORES DE PRODUÇÃO"
+		},
+		{
+		  "code": "791",
+		  "display": "TRABALHADORES DO ARTESANATO URBANO E RURAL"
+		},
+		{
+		  "code": "810",
+		  "display": "SUPERVISORES DE PRODUÇÃO, EM INDÚSTRIAS QUÍMICAS, PETROQUÍMICAS E AFINS"
+		},
+		{
+		  "code": "811",
+		  "display": "OPERADORES DE INSTALAÇÕES EM INDÚSTRIAS QUÍMICAS, PETROQUÍMICAS E AFINS"
+		},
+		{
+		  "code": "812",
+		  "display": "TRABALHADORES DA FABRICAÇÃO DE MUNIÇÃO E EXPLOSIVOS QUÍMICOS"
+		},
+		{
+		  "code": "813",
+		  "display": "OPERADORES DE OUTRAS INSTALAÇÕES QUÍMICAS, PETROQUÍMICAS E AFINS"
+		},
+		{
+		  "code": "818",
+		  "display": "OPERADORES DE OPERAÇÃO UNITÁRIA DE LABORATÓRIO (TRANSVERSAL PARA TODA INDÚSTRIA DE PROCESSOS)"
+		},
+		{
+		  "code": "820",
+		  "display": "SUPERVISORES DE PRODUÇÃO EM INDÚSTRIAS SIDERÚRGICAS"
+		},
+		{
+		  "code": "821",
+		  "display": "OPERADORES DE INSTALAÇÕES E EQUIPAMENTOS DE PRODUÇÃO DE METAIS E LIGAS- PRIMEIRA FUSÃO"
+		},
+		{
+		  "code": "822",
+		  "display": "OPERADORES DE INSTALAÇÕES E EQUIPAMENTOS DE PRODUÇÃO DE METAIS E LIGAS- SEGUNDA FUSÃO"
+		},
+		{
+		  "code": "823",
+		  "display": "TRABALHADORES DE INSTALAÇÕES E EQUIPAMENTOS DE MATERIAL DE CONSTRUÇÃO, CERÂMICA E VIDRO"
+		},
+		{
+		  "code": "828",
+		  "display": "TRABALHADORES ARTESANAIS DA SIDERURGIA E DE MATERIAIS DE CONSTRUÇÃO"
+		},
+		{
+		  "code": "830",
+		  "display": "SUPERVISORES DA FABRICAÇÃO DE CELULOSE E PAPEL"
+		},
+		{
+		  "code": "831",
+		  "display": "TRABALHADORES DA PREPARAÇÃO DE PASTA DE PAPEL"
+		},
+		{
+		  "code": "832",
+		  "display": "TRABALHADORES DA FABRICAÇÃO DE PAPEL"
+		},
+		{
+		  "code": "833",
+		  "display": "CONFECCIONADORES DE PRODUTOS DE PAPEL E PAPELÃO"
+		},
+		{
+		  "code": "840",
+		  "display": "SUPERVISORES DA FABRICAÇÃO DE ALIMENTOS, BEBIDAS E FUMO"
+		},
+		{
+		  "code": "841",
+		  "display": "OPERADORES DE EQUIPAMENTOS NA PREPARAÇÃO DE ALIMENTOS E BEBIDAS"
+		},
+		{
+		  "code": "842",
+		  "display": "OPERADORES NA PREPARAÇÃO DE FUMO E NA FABRICAÇÃO DE CHARUTOS E CIGARROS"
+		},
+		{
+		  "code": "848",
+		  "display": "TRABALHADORES ARTESANAIS NA  AGROINDÚSTRIA, NA INDÚSTRIA DE ALIMENTOS E DO FUMO"
+		},
+		{
+		  "code": "860",
+		  "display": "SUPERVISORES DA PRODUÇÃO DE UTILIDADES"
+		},
+		{
+		  "code": "861",
+		  "display": "OPERADORES NA GERAÇÃO E DISTRIBUIÇÃO DE ENERGIA (CENTRAIS HIDRELÉTRICAS, TERMELÉTRICAS E NUCLEARES)"
+		},
+		{
+		  "code": "862",
+		  "display": "OPERADORES DE UTILIDADES"
+		},
+		{
+		  "code": "871",
+		  "display": "OPERADORES DE OUTRAS INSTALAÇÕES INDUSTRIAIS"
+		},
+		{
+		  "code": "910",
+		  "display": "SUPERVISORES EM SERVIÇOS DE REPARAÇÃO E MANUTENÇÃO MECÂNICA"
+		},
+		{
+		  "code": "911",
+		  "display": "MECÂNICOS DE MANUTENÇÃO DE MÁQUINAS E EQUIPAMENTOS INDUSTRIAIS, COMERCIAIS E RESIDENCIAIS"
+		},
+		{
+		  "code": "913",
+		  "display": "MECÂNICOS DE MANUTENÇÃO DE MÁQUINAS PESADAS E EQUIPAMENTOS AGRÍCOLAS"
+		},
+		{
+		  "code": "914",
+		  "display": "MECÂNICOS DE MANUTENÇÃO VEICULAR"
+		},
+		{
+		  "code": "915",
+		  "display": "REPARADORES DE INSTRUMENTOS E EQUIPAMENTOS DE PRECISÃO"
+		},
+		{
+		  "code": "919",
+		  "display": "OUTROS TRABALHADORES NA REPARAÇÃO E MANUTENÇÃO DE EQUIPAMENTOS"
+		},
+		{
+		  "code": "950",
+		  "display": "SUPERVISORES DE MANUTENÇÃO ELETROELETRÔNICA E ELETROMECÂNICA"
+		},
+		{
+		  "code": "951",
+		  "display": "ELETRICISTAS ELETRÔNICOS DE MANUTENÇÃO INDUSTRIAL, COMERCIAL E RESIDENCIAL"
+		},
+		{
+		  "code": "953",
+		  "display": "ELETRICISTAS ELETRÔNICOS DE MANUTENÇÃO VEICULAR"
+		},
+		{
+		  "code": "954",
+		  "display": "MANTENEDORES ELETROMECÂNICOS"
+		},
+		{
+		  "code": "991",
+		  "display": "OUTROS TRABALHADORES DA CONSERVAÇÃO E MANUTENÇÃO (EXCETO TRABALHADORES ELEMENTARES)"
+		},
+		{
+		  "code": "992",
+		  "display": "TRABALHADORES ELEMENTARES DA MANUTENÇÃO"
+		}
+	]
+}
